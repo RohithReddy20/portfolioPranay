@@ -160,6 +160,7 @@ span.navbar-text {
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
+  border: none;
 }
 .navbar-text button span {
   z-index: 1;
