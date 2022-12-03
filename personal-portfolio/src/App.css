@@ -58,6 +58,10 @@ img {
   height: auto;
 }
 
+.navbar-brand img {
+  width: 200%;
+}
+
 button {
   border: 0;
   background-color: transparent;
@@ -359,7 +363,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  /* width: 56%; */
 }
 .project .nav.nav-pills {
   width: 72%;

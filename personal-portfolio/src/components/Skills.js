@@ -26,6 +26,7 @@ export const Skills = () => {
     }
   };
 
+
   return (
     <section className="skill" id="skills">
         <div className="container">
@@ -37,15 +38,43 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Images" />
-                                <h5>Web Development</h5>
+                                <h5>Prototyping</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Images" />
-                                <h5>Brand Identity</h5>
+                                <h5>Adobe Illustrator</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Images" />
-                                <h5>Logo Design</h5>
+                                <h5>User Experience</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Images" />
+                                <h5>Figma</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Images" />
+                                <h5>Wireframing</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Images" />
+                                <h5>ReactJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Images" />
+                                <h5>Javascript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Images" />
+                                <h5>HTML</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Images" />
+                                <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Images" />
+                                <h5>Bootstrap</h5>
                             </div>
                             {/* <div className="item">
                                 <img src={meter1} alt="Images" />
